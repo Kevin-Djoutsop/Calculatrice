@@ -1,2 +1,0 @@
-# Calculatrice
-Calculatrice Programmable
