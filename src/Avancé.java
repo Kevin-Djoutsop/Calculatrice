@@ -19,6 +19,7 @@ private double memoire=0.0;
 private int memoire1;
 private double resultat;
 private JButton[] touslesboutons;
+private int a=2;
 
     /**
      * Creates new form Calcu
