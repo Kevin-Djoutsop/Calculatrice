@@ -387,7 +387,7 @@ if(operateur.equals("%")){
             }
         });
 
-        jButton18.setBackground(new java.awt.Color(0, 51, 204));
+        jButton18.setBackground(new java.awt.Color(255, 51, 255));
         jButton18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton18.setForeground(new java.awt.Color(255, 255, 255));
         jButton18.setText("ON");
