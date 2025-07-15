@@ -15,6 +15,7 @@ private double chiffre;
 private String operateur = "";
 private double memoire=0.0;
 private int memoire1;
+private int memoire2;
 private double resultat;
 
     /**
