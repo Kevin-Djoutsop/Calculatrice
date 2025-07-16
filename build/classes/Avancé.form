@@ -186,11 +186,13 @@
                       <Component id="jButton20" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton27" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton29" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jButton32" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton28" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton27" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton29" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton28" max="32767" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -830,7 +832,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt;exp(x)&lt;html&gt;"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;exp&lt;html&gt;"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton32ActionPerformed"/>
