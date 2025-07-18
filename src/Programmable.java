@@ -1070,6 +1070,7 @@ double result=Math.sin(Math.toRadians(val));
 ecran1.setText(String.valueOf(result));
 }catch(NumberFormatException e){
     ecran1.setText("Erreur");
+}
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton28ActionPerformed
 
@@ -1115,6 +1116,7 @@ double result= Math.pow(base, exposant);
 ecran1.setText(String.valueOf(result));
 }catch(NumberFormatException e){
     ecran1.setText("Erreur");
+}
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton34ActionPerformed
 
@@ -1161,6 +1163,7 @@ ecran2.setText(ecran2.getText()+"+");
             }
         }catch(NumberFormatException e){
             ecran1.setText("Erreur");
+        }
             // TODO add your handling code here:
     }//GEN-LAST:event_jButton30ActionPerformed
 
