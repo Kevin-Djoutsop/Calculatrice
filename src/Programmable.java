@@ -76,6 +76,8 @@ if(operateur.equals("%")){
         ecran2.setEnabled(true);
         for (JButton button : touslesboutons){
             button.setEnabled(true);
+            
+    }
     }
 
     /**
@@ -777,8 +779,7 @@ if(operateur.equals("%")){
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-   }
-    
+   
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
 operateur="C";
 ecran1.setText("");
