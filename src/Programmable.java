@@ -25,13 +25,13 @@ private JButton[] touslesboutons;
      */
     public Programmable() {
         initComponents();
-        desactiverBoutons();
+      //  desactiverBoutons();
         activerBoutons();
-        touslesboutons=new JButton[]{
+        /*touslesboutons=new JButton[]{
             jButton1, jButton2, jButton3, jButton4, jButton5, jButton6, jButton7,jButton8,jButton9,jButton37,jButton12,
             jButton13,jButton14,jButton15,jButton16,jButton17,jButton19,jButton21,jButton22,jButton23,jButton24,jButton25,jButton26,
             jButton27,jButton28,jButton29,jButton30,jButton31,jButton32,jButton33,jButton34,jButton35,jButton36, recall, memory, clear
-        };
+        };*/
         
     }
     private void calcul(){
