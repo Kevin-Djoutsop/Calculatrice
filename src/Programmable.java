@@ -777,7 +777,8 @@ if(operateur.equals("%")){
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
- 
+   }
+    
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
 operateur="C";
 ecran1.setText("");
@@ -1031,7 +1032,8 @@ double result=Math.pow(val,2);
 ecran1.setText(String.valueOf(result));
 }catch(NumberFormatException e){
     ecran1.setText("Erreur");
-        // TODO add your handling code here:
+    
+}    // TODO add your handling code here:
     }//GEN-LAST:event_jButton24ActionPerformed
 
     private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
@@ -1046,7 +1048,8 @@ ecran1.setText(String.valueOf(result));
     }
 }catch(NumberFormatException e){
     ecran1.setText("Erreur");
-        // TODO add your handling code here:
+    
+}    // TODO add your handling code here:
     }//GEN-LAST:event_jButton26ActionPerformed
 
     private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
@@ -1079,22 +1082,7 @@ ecran1.setText(String.valueOf(result));
     ecran1.setText("Erreur");
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton29ActionPerformed
-
-    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
-try{
-    double val=Double.parseDouble(ecran2.getText());
-    if (val>0){
-double result=Math.log(val);
-ecran1.setText(String.valueOf(result));
     }
-    else{
-        ecran1.setText("Erreur");
-    }
-}catch(NumberFormatException e){
-    ecran1.setText("Erreur");
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton30ActionPerformed
-
     private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
 try{
     double val=Double.parseDouble(ecran2.getText());
@@ -1109,7 +1097,7 @@ ecran1.setText(String.valueOf(result));
     ecran1.setText("Erreur");
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton31ActionPerformed
-
+    }
     private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton32ActionPerformed
@@ -1160,6 +1148,21 @@ ecran2.setText(ecran2.getText()+"+");
     private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton41ActionPerformed
+
+    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+        try{
+            double val=Double.parseDouble(ecran2.getText());
+            if (val>0){
+                double result=Math.log(val);
+                ecran1.setText(String.valueOf(result));
+            }
+            else{
+                ecran1.setText("Erreur");
+            }
+        }catch(NumberFormatException e){
+            ecran1.setText("Erreur");
+            // TODO add your handling code here:
+    }//GEN-LAST:event_jButton30ActionPerformed
 
     /**
      * @param args the command line arguments
