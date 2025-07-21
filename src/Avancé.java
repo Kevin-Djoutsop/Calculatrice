@@ -762,7 +762,7 @@ ecran2.setText(ecran2.getText()+"0");
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
 if(operateur.equals("+") || operateur.equals("-") || operateur.equals("*") || operateur.equals("/") ){
-  ecran1.setText(String.valueOf(ecran1.getText()+"1"));
+  ecran1.setText(String.valueOf(ecran1.getText()+"10000"));
 chiffre2 = Double.valueOf(ecran1.getText()).doubleValue();  
 }
 else{
